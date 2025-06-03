@@ -24,12 +24,14 @@ Se ha tomado el backup de la base de datos Northwind y se han incorporado person
 
 ## 📁 Estructura del Repositorio
 
+```
 northwind-postgres-backup/
 ├── README.md # Este archivo
 ├── backup_northwind.sql # ⭐ DUMP COMPLETO DE LA BD
 ├── docs/
 │ └── vistas.md # Explicación vistas
 └── screenshots/ # Capturas de pantalla
+```
 
 ## 🚀 Instalación Rápida
 
