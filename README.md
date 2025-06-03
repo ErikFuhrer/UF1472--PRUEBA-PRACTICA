@@ -156,3 +156,7 @@ SELECT * FROM vw_ventas_mes LIMIT 5;
 SELECT * FROM vw_top_clientes LIMIT 5;
 SELECT * FROM vw_ventas_categoria;
 ```
+
+## 🧩 Diagrama ER
+
+![Imagen Entidad/Relacion](./screenshots/diagrama_ER.png)
