@@ -100,6 +100,15 @@ SELECT * FROM vw_stock_bajo;
 
 3. **Rendimiento por proveedor**
 
+Esta vista analiza el rendimiento comercial de cada proveedor con base en:
+
+- La cantidad de productos que suministra
+- El total de unidades vendidas asociadas a esos productos
+- El total de ingresos generados
+- La fecha de la última venta de uno de sus productos
+
+Esto permite identificar qué proveedores generan más ingresos y cuáles podrían estar inactivos.
+
 ```sql
 create view vw_performance_proveedores as
 select 	s.company_name  as "nombre de la compañia",
