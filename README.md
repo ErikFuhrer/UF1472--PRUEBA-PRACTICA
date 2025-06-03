@@ -45,7 +45,7 @@ northwind-postgres-backup/
 1. **Clonar el repositorio**
 
 ```bash
-git clone https://github.com/tu-usuario/UF1472--PRUEBA-PRACTICA
+git clone https://github.com/tu-usuario/UF1472--PRUEBA-PRACTICA.git
 cd UF1472--PRUEBA-PRACTICA
 ```
 
@@ -58,7 +58,7 @@ createdb -U postgres northwind
 3. **Restaurar el dump**
 
 ```bash
-psql -U postgres -d northwindo -f backup_northwind.sql
+psql -U postgres -d northwind -f backup_northwind.sql
 ```
 
 ### Alternativa usando pgAdmin u otro cliente
@@ -75,7 +75,7 @@ psql -U postgres -d northwindo -f backup_northwind.sql
 
 ```sql
 SELECT product_name, categoryjson ->> 'categoria' as categoria  , categoryjson ->> 'subcategoria' as subcategory
-FROM Products
+FROM products
 WHERE categoryjson ->> 'subcategoria' ilike '%ee%'
 order by 2, 3;
 ```
