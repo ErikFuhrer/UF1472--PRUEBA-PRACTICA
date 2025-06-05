@@ -45,7 +45,7 @@ northwind-postgres-backup/
 1. **Clonar el repositorio**
 
 ```bash
-git clone https://github.com/tu-usuario/UF1472--PRUEBA-PRACTICA.git
+git clone https://github.com/ErikFuhrer/UF1472--PRUEBA-PRACTICA.git
 cd UF1472--PRUEBA-PRACTICA
 ```
 
